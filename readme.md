@@ -1,6 +1,6 @@
 # quicksort in various languages
 
-## haskell, go, javascript, and experimental deathspeak
+#### haskell, go, javascript, and experimental deathspeak
 
 A code comparison of the quicksort algorithm
 written in haskell, go lang, javascript and deathspeak.
