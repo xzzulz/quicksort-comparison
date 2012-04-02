@@ -1,0 +1,13 @@
+:: Quicksort in deathspeak
+::  
+:: this is experimental code.
+:: deathspeak language is not yet implemented,
+:: is a work in progress.
+::
+
+!quicksort:
+  #.len = 0 ? ^ #
+  #.pop! -> p
+  lesser: #.filter ! # < p
+  greater: #.filter ! # >= p
+  quicksort! lesser .. p .. quicksort! greater
