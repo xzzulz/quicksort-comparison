@@ -4,9 +4,6 @@
 // made only for comparative purposes of this
 // project.
 
-//
-// Run in node or in a javascript console
-
 
 var quicksort = function( arr ) {
 
